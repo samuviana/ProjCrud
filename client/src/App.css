@@ -1,0 +1,49 @@
+.app--container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(42, 155, 127);
+  border-radius: 5px 5px  0 0;
+  transition: ease-in-out .3s;
+}
+
+.register--container{
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.register--title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: monospace;
+}
+
+.register--input{
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.233);
+  border: none;
+  text-align: center;
+  width: 330px;
+  height: 30px;
+}
+
+.register--button {
+  padding: 2px 5px;
+  width: 330px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(42, 155, 127);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: ease-in-out .1s;
+}
+
+.register--button:hover {
+  opacity: .9;
+}
